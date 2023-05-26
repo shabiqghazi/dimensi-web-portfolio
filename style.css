@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  padding: 0px 60px;
+  position: fixed;
+  width: 100vw;
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 160px;
+  height: 592px;
+}
+
+#home-kanan img {
+  width: 258px;
+  border-radius: 32px;
+}
+#home-kiri p {
+  font-size: 24pt;
+}
+#home-kiri h1 {
+  margin: 16px 0px;
+  font-size: 32pt;
+}
+button {
+  all: unset;
+  background-color: #0057a6;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  margin-top: 16px;
+}
+#about {
+  display: flex;
+  padding: 128px 160px;
+  background-color: #0057a6;
+  color: #ffffff;
+  text-align: justify;
+}
+#about-kiri img {
+  width: 258px;
+  border-radius: 16px;
+}
+#about-kanan {
+  margin-left: 128px;
+}
+#about-kanan p {
+  line-height: 28pt;
+}
+#about-kanan h2 {
+  margin-bottom: 16pt;
+}
+footer {
+  background-color: #18334d;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 12pt;
+}
